@@ -17,6 +17,9 @@
   "keywords": ["athlete", "sports", "registration", "platform"],
   "author": "",
   "license": "ISC",
+  "engines": {
+    "node": ">=20.19.0"
+  },
   "devDependencies": {
     "concurrently": "^8.2.2",
     "fs-extra": "^11.2.0"
