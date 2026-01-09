@@ -1,0 +1,11 @@
+services:
+  - type: web
+    name: athleteconnect
+    runtime: node
+    buildCommand: chmod +x build.sh && ./build.sh
+    startCommand: cd backend && npm start
+    envVars:
+      - key: NODE_VERSION
+        value: 20.19.0
+      - key: NODE_ENV
+        value: production
