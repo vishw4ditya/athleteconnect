@@ -8,8 +8,8 @@ echo "📦 Installing frontend dependencies..."
 cd frontend
 npm install
 
-echo "🔨 Building frontend..."
-npm run build
+echo "🔨 Building frontend with Vite..."
+npx vite build
 
 echo "📦 Copying frontend to backend..."
 cd ..
